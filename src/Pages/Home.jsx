@@ -1,54 +1,54 @@
-// import Banner from "../Components/Banner";
-// import instagramText1 from "../assets/images/cups/Follow on Instagram.png";
-// import instagramText2 from "../assets/images/cups/Follow Us Now.png";
-// import card1 from "../assets/images/cups/Rectangle 9.png";
-// import card8 from "../assets/images/cups/Rectangle 10.png";
-// import card2 from "../assets/images/cups/Rectangle 11.png";
-// import card3 from "../assets/images/cups/Rectangle 12.png";
-// import card4 from "../assets/images/cups/Rectangle 13.png";
-// import card5 from "../assets/images/cups/Rectangle 14.png";
-// import card6 from "../assets/images/cups/Rectangle 15.png";
-// import card7 from "../assets/images/cups/Rectangle 16.png";
-// import { useLoaderData } from "react-router-dom";
-// import Coffee from "../Components/Coffee";
-// import { useState, useEffect } from "react";
-// import Swal from "sweetalert2";
+import Banner from "../Components/Banner";
+import instagramText1 from "../assets/images/cups/Follow on Instagram.png";
+import instagramText2 from "../assets/images/cups/Follow Us Now.png";
+import card1 from "../assets/images/cups/Rectangle 9.png";
+import card8 from "../assets/images/cups/Rectangle 10.png";
+import card2 from "../assets/images/cups/Rectangle 11.png";
+import card3 from "../assets/images/cups/Rectangle 12.png";
+import card4 from "../assets/images/cups/Rectangle 13.png";
+import card5 from "../assets/images/cups/Rectangle 14.png";
+import card6 from "../assets/images/cups/Rectangle 15.png";
+import card7 from "../assets/images/cups/Rectangle 16.png";
+import { useLoaderData } from "react-router-dom";
+import Coffee from "../Components/Coffee";
+import { useState, useEffect } from "react";
+import Swal from "sweetalert2";
 
-// const Home = () => {
-//   const loadedCoffees = useLoaderData(); 
-//   const [coffees, setCoffees] = useState(loadedCoffees); 
+const Home = () => {
+  const loadedCoffees = useLoaderData(); 
+  const [coffees, setCoffees] = useState(loadedCoffees); 
 
-//   const handleDelete = (_id) => {
-//     Swal.fire({
-//       title: "Are you sure?",
-//       text: "You won't be able to revert this!",
-//       icon: "warning",
-//       showCancelButton: true,
-//       confirmButtonColor: "#3085d6",
-//       cancelButtonColor: "#d33",
-//       confirmButtonText: "Yes, delete it!",
-//     }).then((result) => {
-//       if (result.isConfirmed) {
-//         fetch(`http://localhost:5000/coffee/${_id}`, {
-//           method: "DELETE",
-//         })
-//           .then((res) => res.json())
-//           .then((data) => {
-//             if (data.deletedCount > 0) {
-//               Swal.fire({
-//                 title: "Deleted!",
-//                 text: "Your coffee has been deleted.",
-//                 icon: "success",
-//               });
+  const handleDelete = (_id) => {
+    Swal.fire({
+      title: "Are you sure?",
+      text: "You won't be able to revert this!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Yes, delete it!",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        fetch(`http://localhost:5000/coffee/${_id}`, {
+          method: "DELETE",
+        })
+          .then((res) => res.json())
+          .then((data) => {
+            if (data.deletedCount > 0) {
+              Swal.fire({
+                title: "Deleted!",
+                text: "Your coffee has been deleted.",
+                icon: "success",
+              });
 
               
-//               const remaining = coffees.filter((coffee) => coffee._id !== _id);
-//               setCoffees(remaining);
-//             }
-//           });
-//       }
-//     });
-//   };
+              const remaining = coffees.filter((coffee) => coffee._id !== _id);
+              setCoffees(remaining);
+            }
+          });
+      }
+    });
+  };
 
   return (
     <div className="w-full">
