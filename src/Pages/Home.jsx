@@ -65,23 +65,23 @@
 //         ))}
 //       </div>
 
-//       {/* instagram section */}
-//       <div className="flex flex-col items-center justify-center gap-2 pt-32 pb-24">
-//         <img src={instagramText2} alt="" />
-//         <img src={instagramText1} alt="" />
-//         <div className="grid grid-cols-2 gap-4 md:grid-cols-4 pt-10">
-//           <img src={card1} alt="" />
-//           <img src={card2} alt="" />
-//           <img src={card3} alt="" />
-//           <img src={card4} alt="" />
-//           <img src={card5} alt="" />
-//           <img src={card6} alt="" />
-//           <img src={card7} alt="" />
-//           <img src={card8} alt="" />
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
+      {/* instagram section */}
+      <div className="flex flex-col items-center justify-center gap-2 pt-32 pb-24">
+        <img src={instagramText2} alt="" />
+        <img src={instagramText1} alt="" />
+        <div className="grid grid-cols-2 gap-4 md:grid-cols-4 pt-10">
+          <img src={card1} alt="" />
+          <img src={card2} alt="" />
+          <img src={card3} alt="" />
+          <img src={card4} alt="" />
+          <img src={card5} alt="" />
+          <img src={card6} alt="" />
+          <img src={card7} alt="" />
+          <img src={card8} alt="" />
+        </div>
+      </div>
+    </div>
+  );
+};
 
-// export default Home;
+export default Home;
