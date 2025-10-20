@@ -94,89 +94,89 @@
 //                 />
 //               </div>
 
-//               <div className="flex flex-col space-y-2">
-//                 <label className="text-xl font-bold text-[#1B1A1ACC]">
-//                   Chef
-//                 </label>
-//                 <input
-//                   type="text"
-//                   name="chefName"
-//                   placeholder="Enter Coffee Chef"
-//                   className="text-xl font-bold text-[#1B1A1A99] px-4 py-2 rounded-md"
-//                 />
-//               </div>
+              <div className="flex flex-col space-y-2">
+                <label className="text-xl font-bold text-[#1B1A1ACC]">
+                  Chef
+                </label>
+                <input
+                  type="text"
+                  name="chefName"
+                  placeholder="Enter Coffee Chef"
+                  className="text-xl font-bold text-[#1B1A1A99] px-4 py-2 rounded-md"
+                />
+              </div>
 
-//               <div className="flex flex-col space-y-2">
-//                 <label className="text-xl font-bold text-[#1B1A1ACC]">
-//                   Supplier
-//                 </label>
-//                 <input
-//                   type="text"
-//                   name="SupplierName"
-//                   placeholder="Enter coffee supplier"
-//                   className="text-xl font-bold text-[#1B1A1A99] px-4 py-2 rounded-md"
-//                 />
-//               </div>
+              <div className="flex flex-col space-y-2">
+                <label className="text-xl font-bold text-[#1B1A1ACC]">
+                  Supplier
+                </label>
+                <input
+                  type="text"
+                  name="SupplierName"
+                  placeholder="Enter coffee supplier"
+                  className="text-xl font-bold text-[#1B1A1A99] px-4 py-2 rounded-md"
+                />
+              </div>
 
-//               <div className="flex flex-col space-y-2">
-//                 <label className="text-xl font-bold text-[#1B1A1ACC]">
-//                   Countity
-//                 </label>
-//                 <input
-//                   type="text"
-//                   name="Countity"
-//                   placeholder="Enter coffee taste"
-//                   className="text-xl font-bold text-[#1B1A1A99] px-4 py-2 rounded-md"
-//                 />
-//               </div>
+              <div className="flex flex-col space-y-2">
+                <label className="text-xl font-bold text-[#1B1A1ACC]">
+                  Countity
+                </label>
+                <input
+                  type="text"
+                  name="Countity"
+                  placeholder="Enter coffee taste"
+                  className="text-xl font-bold text-[#1B1A1A99] px-4 py-2 rounded-md"
+                />
+              </div>
 
-//               <div className="flex flex-col space-y-2">
-//                 <label className="text-xl font-bold text-[#1B1A1ACC]">
-//                   Price
-//                 </label>
-//                 <input
-//                   type="text"
-//                   name="Price"
-//                   placeholder="Enter coffee category"
-//                   className="text-xl font-bold text-[#1B1A1A99] px-4 py-2 rounded-md"
-//                 />
-//               </div>
+              <div className="flex flex-col space-y-2">
+                <label className="text-xl font-bold text-[#1B1A1ACC]">
+                  Price
+                </label>
+                <input
+                  type="text"
+                  name="Price"
+                  placeholder="Enter coffee category"
+                  className="text-xl font-bold text-[#1B1A1A99] px-4 py-2 rounded-md"
+                />
+              </div>
 
-//               <div className="flex flex-col space-y-2">
-//                 <label className="text-xl font-bold text-[#1B1A1ACC]">
-//                   Details
-//                 </label>
-//                 <input
-//                   type="text"
-//                   name="Details"
-//                   placeholder="Enter coffee details"
-//                   className="text-xl font-bold text-[#1B1A1A99] px-4 py-2 rounded-md"
-//                 />
-//               </div>
+              <div className="flex flex-col space-y-2">
+                <label className="text-xl font-bold text-[#1B1A1ACC]">
+                  Details
+                </label>
+                <input
+                  type="text"
+                  name="Details"
+                  placeholder="Enter coffee details"
+                  className="text-xl font-bold text-[#1B1A1A99] px-4 py-2 rounded-md"
+                />
+              </div>
 
-//               <div className="flex flex-col space-y-2">
-//                 <label className="text-xl font-bold text-[#1B1A1ACC]">
-//                   Photo
-//                 </label>
-//                 <input
-//                   type="text"
-//                   name="photo"
-//                   placeholder="Enter photo URL"
-//                   className="text-xl font-bold text-[#1B1A1A99] px-4 py-2 rounded-md"
-//                 />
-//               </div>
-//             </div>
+              <div className="flex flex-col space-y-2">
+                <label className="text-xl font-bold text-[#1B1A1ACC]">
+                  Photo
+                </label>
+                <input
+                  type="text"
+                  name="photo"
+                  placeholder="Enter photo URL"
+                  className="text-xl font-bold text-[#1B1A1A99] px-4 py-2 rounded-md"
+                />
+              </div>
+            </div>
 
-//             <div className="mt-8 mb-8">
-//               <button className="bg-[#D2B48C] py-2 mt-4 w-full rounded-md text-center flex justify-center font-bold">
-//                 <img src={button} alt="" />
-//               </button>
-//             </div>
-//           </form>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
+            <div className="mt-8 mb-8">
+              <button className="bg-[#D2B48C] py-2 mt-4 w-full rounded-md text-center flex justify-center font-bold">
+                <img src={button} alt="" />
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-// export default AddCoffee;
+export default AddCoffee;
