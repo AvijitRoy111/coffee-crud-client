@@ -50,20 +50,20 @@
 //     });
 //   };
 
-//   return (
-//     <div className="w-full">
-//       <Banner />
+  return (
+    <div className="w-full">
+      <Banner />
 
-//       {/* coffee list */}
-//       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 px-6 md:px-20">
-//         {coffees.map((coffee) => (
-//           <Coffee
-//             key={coffee._id}
-//             coffee={coffee}
-//             onDelete={handleDelete} 
-//           />
-//         ))}
-//       </div>
+      {/* coffee list */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 px-6 md:px-20">
+        {coffees.map((coffee) => (
+          <Coffee
+            key={coffee._id}
+            coffee={coffee}
+            onDelete={handleDelete} 
+          />
+        ))}
+      </div>
 
       {/* instagram section */}
       <div className="flex flex-col items-center justify-center gap-2 pt-32 pb-24">
