@@ -1,8 +1,8 @@
-// import coffee from "../assets/images/more/16.png";
-// import back from "../assets/back-home-removebg-preview.png";
-// import { Link } from "react-router-dom";
-// import { FaArrowLeft } from "react-icons/fa6";
-// import title from "../assets/images/more/tittle.png"
+import coffee from "../assets/images/more/16.png";
+import back from "../assets/back-home-removebg-preview.png";
+import { Link } from "react-router-dom";
+import { FaArrowLeft } from "react-icons/fa6";
+import title from "../assets/images/more/tittle.png"
 
 const Veiws = () => {
   return (
