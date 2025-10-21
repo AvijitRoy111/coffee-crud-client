@@ -1,12 +1,12 @@
-// import { IoEyeOutline } from "react-icons/io5";
-// import { FaPencil } from "react-icons/fa6";
-// import { MdDelete } from "react-icons/md";
-// import { Link } from "react-router-dom";
-// import cofi from "../assets/images/more/16.png";
-// import Swal from "sweetalert2";
-// import { useState } from "react";
+import { IoEyeOutline } from "react-icons/io5";
+import { FaPencil } from "react-icons/fa6";
+import { MdDelete } from "react-icons/md";
+import { Link } from "react-router-dom";
+import cofi from "../assets/images/more/16.png";
+import Swal from "sweetalert2";
+import { useState } from "react";
 
-// const Coffee = ({ coffee, onDelete }) => {
+const Coffee = ({ coffee, onDelete }) => {
   
   const { _id, photo, name, chefName, Price, Details } = coffee;
 
