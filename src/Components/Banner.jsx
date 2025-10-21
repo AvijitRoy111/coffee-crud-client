@@ -1,31 +1,31 @@
-// import background from "../assets/images/more/3.png";
-// import text from "../assets/images/more/Would you like a Cup of Delicious Coffee_.png";
-// import btn from "../assets/images/more/banner-btn.png";
-// import logo1 from "../assets/images/icons/1.png"
-// import logo2 from "../assets/images/icons/2.png"
-// import logo3 from "../assets/images/icons/3.png"
-// import logo4 from "../assets/images/icons/4.png"
-// import text1 from "../assets/images/icons/Awesome Aroma.png"
-// import text2 from "../assets/images/icons/High Quality.png"
-// import text3 from "../assets/images/icons/Pure Grades.png"
-// import text4 from "../assets/images/icons/Proper Roasting.png"
-// import product from "../assets/images/icons/product.png"
-// import btn2 from "../assets/images/icons/addCoffee.png"
-// import { Link } from "react-router-dom";
+import background from "../assets/images/more/3.png";
+import text from "../assets/images/more/Would you like a Cup of Delicious Coffee_.png";
+import btn from "../assets/images/more/banner-btn.png";
+import logo1 from "../assets/images/icons/1.png"
+import logo2 from "../assets/images/icons/2.png"
+import logo3 from "../assets/images/icons/3.png"
+import logo4 from "../assets/images/icons/4.png"
+import text1 from "../assets/images/icons/Awesome Aroma.png"
+import text2 from "../assets/images/icons/High Quality.png"
+import text3 from "../assets/images/icons/Pure Grades.png"
+import text4 from "../assets/images/icons/Proper Roasting.png"
+import product from "../assets/images/icons/product.png"
+import btn2 from "../assets/images/icons/addCoffee.png"
+import { Link } from "react-router-dom";
 
-// const Banner = () => {
-//   return (
-//     <div>
-//       <div
-//         style={{ backgroundImage: `url(${background})` }}
-//         className="w-auto md:w-full h-[450px] relative  bg-cover bg-center flex justify-between"
-//       >
-//         <div className="md:absolute md:top-24 md:right-44 flex flex-col items-start justify-center  px-6 space-y-4">
-//           <img
-//             src={text}
-//             alt="Coffee text"
-//             className="mb-4 w-auto md:w-[550px]"
-//           />
+const Banner = () => {
+  return (
+    <div>
+      <div
+        style={{ backgroundImage: `url(${background})` }}
+        className="w-auto md:w-full h-[450px] relative  bg-cover bg-center flex justify-between"
+      >
+        <div className="md:absolute md:top-24 md:right-44 flex flex-col items-start justify-center  px-6 space-y-4">
+          <img
+            src={text}
+            alt="Coffee text"
+            className="mb-4 w-auto md:w-[550px]"
+          />
 
           <p className="text-base font-medium text-white max-w-2xl pb-4 w-auto md:w-[600px]">
             It's coffee time - Sip & Savor - Relaxation in every sip! Get the
