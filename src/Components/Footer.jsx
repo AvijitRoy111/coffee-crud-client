@@ -53,23 +53,23 @@
 //               </span>
 //             </p>
 //             <p>
-//               <span className="text-2xl font-bold text-[#331A15]">
-//                 <MdMarkEmailRead />
-//               </span>{" "}
-//               <span className="text-lg font-medium text-[#1B1A1A]">
-//                 info@gmail.com
-//               </span>
-//             </p>
-//             <p>
-//               <span className="text-2xl font-bold text-[#331A15]">
-//                 <MdAddLocationAlt />
-//               </span>{" "}
-//               <span className="text-lg font-medium text-[#1B1A1A]">
-//                 72, Wall street, King Road, Dhaka
-//               </span>
-//             </p>
-//           </div>
-//         </div>
+              <span className="text-2xl font-bold text-[#331A15]">
+                <MdMarkEmailRead />
+              </span>{" "}
+              <span className="text-lg font-medium text-[#1B1A1A]">
+                info@gmail.com
+              </span>
+            </p>
+            <p>
+              <span className="text-2xl font-bold text-[#331A15]">
+                <MdAddLocationAlt />
+              </span>{" "}
+              <span className="text-lg font-medium text-[#1B1A1A]">
+                72, Wall street, King Road, Dhaka
+              </span>
+            </p>
+          </div>
+        </div>
 
         <div className=" flex flex-col  gap-4 w-full">
           <img className="w-52" src={contact} alt="" />
@@ -90,4 +90,4 @@
   );
 };
 
-// export default Footer;
+export default Footer;
