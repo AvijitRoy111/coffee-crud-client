@@ -8,16 +8,16 @@
 
 // const Coffee = ({ coffee, onDelete }) => {
   
-//   const { _id, photo, name, chefName, Price, Details } = coffee;
+  const { _id, photo, name, chefName, Price, Details } = coffee;
 
  
 
-//   return (
-//     <div className="bg-gray-200 rounded-md py-8 px-6 flex gap-4 items-center justify-center shadow-2xl">
-//       {/* Image Section */}
-//       <div>
-//         <img src={photo || `${cofi}`} alt={name} />
-//       </div>
+  return (
+    <div className="bg-gray-200 rounded-md py-8 px-6 flex gap-4 items-center justify-center shadow-2xl">
+      {/* Image Section */}
+      <div>
+        <img src={photo || `${cofi}`} alt={name} />
+      </div>
 
       {/* Details Section */}
       <div className="space-y-3 md:col-span-2">
