@@ -46,30 +46,30 @@
 //         </h1>
 //       </div>
 
-//       {/* button */}
-//       <div className="flex flex-col gap-3">
-//         <Link to="/coffee_views">
-//           <button className="text-2xl font-bold text-[#FFFFFF] bg-[#D2B48C] p-2 rounded-md">
-//             <IoEyeOutline />
-//           </button>
-//         </Link>
-//         <Link to={`/update_coffee/${_id}`}>
-//           <button className="text-2xl font-bold text-[#FFFFFF] bg-[#3C393B] p-2 rounded-md">
-//             <FaPencil />
-//           </button>
-//         </Link>
+      {/* button */}
+      <div className="flex flex-col gap-3">
+        <Link to="/coffee_views">
+          <button className="text-2xl font-bold text-[#FFFFFF] bg-[#D2B48C] p-2 rounded-md">
+            <IoEyeOutline />
+          </button>
+        </Link>
+        <Link to={`/update_coffee/${_id}`}>
+          <button className="text-2xl font-bold text-[#FFFFFF] bg-[#3C393B] p-2 rounded-md">
+            <FaPencil />
+          </button>
+        </Link>
 
-//         <button
-//           onClick={() => {
-//             onDelete(_id);
-//           }}
-//           className="text-2xl font-bold text-[#FFFFFF] bg-[#EA4744] p-2 rounded-md"
-//         >
-//           <MdDelete />
-//         </button>
-//       </div>
-//     </div>
-//   );
-// };
+        <button
+          onClick={() => {
+            onDelete(_id);
+          }}
+          className="text-2xl font-bold text-[#FFFFFF] bg-[#EA4744] p-2 rounded-md"
+        >
+          <MdDelete />
+        </button>
+      </div>
+    </div>
+  );
+};
 
-// export default Coffee;
+export default Coffee;
