@@ -19,32 +19,32 @@
 //         <img src={photo || `${cofi}`} alt={name} />
 //       </div>
 
-//       {/* Details Section */}
-//       <div className="space-y-3 md:col-span-2">
-//         <h1 className="flex gap-2 items-center">
-//           <span className="text-xl font-bold">Coffee Name:</span>
-//           <span className="text-xl font-semibold text-[#5C5B5B]">{name}</span>
-//         </h1>
+      {/* Details Section */}
+      <div className="space-y-3 md:col-span-2">
+        <h1 className="flex gap-2 items-center">
+          <span className="text-xl font-bold">Coffee Name:</span>
+          <span className="text-xl font-semibold text-[#5C5B5B]">{name}</span>
+        </h1>
 
-//         <h1 className="flex gap-2 items-center">
-//           <span className="text-xl font-bold">Chef:</span>
-//           <span className="text-xl font-semibold text-[#5C5B5B]">
-//             {chefName}
-//           </span>
-//         </h1>
+        <h1 className="flex gap-2 items-center">
+          <span className="text-xl font-bold">Chef:</span>
+          <span className="text-xl font-semibold text-[#5C5B5B]">
+            {chefName}
+          </span>
+        </h1>
 
-//         <h1 className="flex gap-2 items-center">
-//           <span className="text-xl font-bold">Price:</span>
-//           <span className="text-xl font-semibold text-[#5C5B5B]">{Price}</span>
-//         </h1>
+        <h1 className="flex gap-2 items-center">
+          <span className="text-xl font-bold">Price:</span>
+          <span className="text-xl font-semibold text-[#5C5B5B]">{Price}</span>
+        </h1>
 
-//         <h1 className="flex gap-2 items-start">
-//           <span className="text-xl font-bold">Details:</span>
-//           <span className="text-xl font-semibold text-[#5C5B5B]">
-//             {Details.slice(0, 40)}
-//           </span>
-//         </h1>
-//       </div>
+        <h1 className="flex gap-2 items-start">
+          <span className="text-xl font-bold">Details:</span>
+          <span className="text-xl font-semibold text-[#5C5B5B]">
+            {Details.slice(0, 40)}
+          </span>
+        </h1>
+      </div>
 
       {/* button */}
       <div className="flex flex-col gap-3">
