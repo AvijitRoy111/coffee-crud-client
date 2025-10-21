@@ -1,31 +1,31 @@
-// import background from "../assets/images/more/13.jpg";
-// import logo from "../assets/images/more/logo1.png";
-// import text1 from "../assets/images/more/name.png";
-// import text2 from "../assets/images/more/get touch.png";
-// import text3 from "../assets/images/more/Copyright Espresso Emporium ! All Rights Reserved.png";
-// import logo1 from "../assets/images/more/24.jpg";
-// import contact from "../assets/images/more/contact.png";
-// import button from "../assets/images/more/button.png";
-// import { FaFacebook } from "react-icons/fa6";
-// import { FaInstagram } from "react-icons/fa";
-// import { FaTwitter } from "react-icons/fa";
-// import { FaLinkedin } from "react-icons/fa6";
-// import { FaPhoneAlt } from "react-icons/fa";
-// import { MdMarkEmailRead } from "react-icons/md";
-// import { MdAddLocationAlt } from "react-icons/md";
+import background from "../assets/images/more/13.jpg";
+import logo from "../assets/images/more/logo1.png";
+import text1 from "../assets/images/more/name.png";
+import text2 from "../assets/images/more/get touch.png";
+import text3 from "../assets/images/more/Copyright Espresso Emporium ! All Rights Reserved.png";
+import logo1 from "../assets/images/more/24.jpg";
+import contact from "../assets/images/more/contact.png";
+import button from "../assets/images/more/button.png";
+import { FaFacebook } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdMarkEmailRead } from "react-icons/md";
+import { MdAddLocationAlt } from "react-icons/md";
 
-// const Footer = () => {
-//   return (
-//     <div>
-//       <div
-//         style={{ backgroundImage: `url(${background})` }}
-//         className="mt-10 flex flex-col md:flex-row gap-12 justify-between items-center px-4 md:px-12 lg:px-32"
-//       >
-//         <div className="flex flex-col space-y-3 w-full">
-//           <img className="w-20" src={logo} alt="" />
-//           <img className="w-52" src={text1} alt="" />
-//           <p className="text-base font-medium text-[#1B1A1A] ">
-//             Always ready to be your friend. Come & Contact with us <br /> to share your
+const Footer = () => {
+  return (
+    <div>
+      <div
+        style={{ backgroundImage: `url(${background})` }}
+        className="mt-10 flex flex-col md:flex-row gap-12 justify-between items-center px-4 md:px-12 lg:px-32"
+      >
+        <div className="flex flex-col space-y-3 w-full">
+          <img className="w-20" src={logo} alt="" />
+          <img className="w-52" src={text1} alt="" />
+          <p className="text-base font-medium text-[#1B1A1A] ">
+            Always ready to be your friend. Come & Contact with us <br /> to share your
             memorable moments, to share <br /> with your best companion.
           </p>
           <p className="flex gap-2 *:text-4xl *:font-bold *:text-[#331A15]">
