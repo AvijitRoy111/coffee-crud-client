@@ -27,22 +27,22 @@
 //             className="mb-4 w-auto md:w-[550px]"
 //           />
 
-//           <p className="text-base font-medium text-white max-w-2xl pb-4 w-auto md:w-[600px]">
-//             It's coffee time - Sip & Savor - Relaxation in every sip! Get the
-//             nostalgia back!! Your companion of every moment!!! Enjoy the
-//             beautiful moments and make them memorable.
-//           </p>
+          <p className="text-base font-medium text-white max-w-2xl pb-4 w-auto md:w-[600px]">
+            It's coffee time - Sip & Savor - Relaxation in every sip! Get the
+            nostalgia back!! Your companion of every moment!!! Enjoy the
+            beautiful moments and make them memorable.
+          </p>
 
-//           <img src={btn} alt="Button" />
-//         </div>
-//       </div>
+          <img src={btn} alt="Button" />
+        </div>
+      </div>
 
-//       <div className="bg-[#ECEAE3] grid grid-cols-2 gap-6 md:grid-cols-4 px-4 md:px-20 lg:px-32">
-//           <div className="flex flex-col gap-2 items-center py-4">
-//                <img className="w-10" src={logo1} alt="" />
-//                <img className="w-24" src={text1} alt="" />
-//                <p className="text-sm font-medium text-[#1B1A1A] text-center">You will definitely be a fan of the design & aroma of your coffee</p>
-//           </div>
+      <div className="bg-[#ECEAE3] grid grid-cols-2 gap-6 md:grid-cols-4 px-4 md:px-20 lg:px-32">
+          <div className="flex flex-col gap-2 items-center py-4">
+               <img className="w-10" src={logo1} alt="" />
+               <img className="w-24" src={text1} alt="" />
+               <p className="text-sm font-medium text-[#1B1A1A] text-center">You will definitely be a fan of the design & aroma of your coffee</p>
+          </div>
 
           <div className="flex flex-col gap-2 items-center py-4">
                <img className="w-10"  src={logo2} alt="" />
