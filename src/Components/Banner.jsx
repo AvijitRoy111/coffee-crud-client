@@ -44,24 +44,24 @@
 //                <p className="text-sm font-medium text-[#1B1A1A] text-center">You will definitely be a fan of the design & aroma of your coffee</p>
 //           </div>
 
-//           <div className="flex flex-col gap-2 items-center py-4">
-//                <img className="w-10"  src={logo2} alt="" />
-//                <img className="w-20" src={text2} alt="" />
-//                <p className="text-sm font-medium text-center text-[#1B1A1A]">We served the coffee to you maintaining the best quality</p>
-//           </div>
+          <div className="flex flex-col gap-2 items-center py-4">
+               <img className="w-10"  src={logo2} alt="" />
+               <img className="w-20" src={text2} alt="" />
+               <p className="text-sm font-medium text-center text-[#1B1A1A]">We served the coffee to you maintaining the best quality</p>
+          </div>
 
-//           <div className="flex flex-col gap-2 items-center py-4">
-//                <img className="w-10" src={logo3} alt="" />
-//                <img className="w-20" src={text3} alt="" />
-//                <p className="text-sm font-medium text-center text-[#1B1A1A]">The coffee is made of the green coffee beans which you will love</p>
-//           </div>
+          <div className="flex flex-col gap-2 items-center py-4">
+               <img className="w-10" src={logo3} alt="" />
+               <img className="w-20" src={text3} alt="" />
+               <p className="text-sm font-medium text-center text-[#1B1A1A]">The coffee is made of the green coffee beans which you will love</p>
+          </div>
 
-//           <div className="flex flex-col gap-2 items-center py-4">
-//                <img className="w-10" src={logo4} alt="" />
-//                <img className="w-24" src={text4} alt="" />
-//                <p className="text-sm font-medium text-center text-[#1B1A1A]">Your coffee is brewed by first roasting the green coffee beans</p>
-//           </div>
-//       </div>
+          <div className="flex flex-col gap-2 items-center py-4">
+               <img className="w-10" src={logo4} alt="" />
+               <img className="w-24" src={text4} alt="" />
+               <p className="text-sm font-medium text-center text-[#1B1A1A]">Your coffee is brewed by first roasting the green coffee beans</p>
+          </div>
+      </div>
 
 
       <div className="mt-12 flex flex-col gap-4 mb-10 justify-center items-center">
