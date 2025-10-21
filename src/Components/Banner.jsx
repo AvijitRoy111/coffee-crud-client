@@ -64,15 +64,15 @@
 //       </div>
 
 
-//       <div className="mt-12 flex flex-col gap-4 mb-10 justify-center items-center">
-//           <img src={product} alt="" />
-//           <Link to="/add_coffee">
-//             <img src={btn2} alt="" />
-//           </Link>
-//       </div>
+      <div className="mt-12 flex flex-col gap-4 mb-10 justify-center items-center">
+          <img src={product} alt="" />
+          <Link to="/add_coffee">
+            <img src={btn2} alt="" />
+          </Link>
+      </div>
 
-//     </div>
-//   );
-// };
+    </div>
+  );
+};
 
-// export default Banner;
+export default Banner;
