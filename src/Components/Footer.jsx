@@ -1,18 +1,18 @@
-// import background from "../assets/images/more/13.jpg";
-// import logo from "../assets/images/more/logo1.png";
-// import text1 from "../assets/images/more/name.png";
-// import text2 from "../assets/images/more/get touch.png";
-// import text3 from "../assets/images/more/Copyright Espresso Emporium ! All Rights Reserved.png";
-// import logo1 from "../assets/images/more/24.jpg";
-// import contact from "../assets/images/more/contact.png";
-// import button from "../assets/images/more/button.png";
-// import { FaFacebook } from "react-icons/fa6";
-// import { FaInstagram } from "react-icons/fa";
-// import { FaTwitter } from "react-icons/fa";
-// import { FaLinkedin } from "react-icons/fa6";
-// import { FaPhoneAlt } from "react-icons/fa";
-// import { MdMarkEmailRead } from "react-icons/md";
-// import { MdAddLocationAlt } from "react-icons/md";
+import background from "../assets/images/more/13.jpg";
+import logo from "../assets/images/more/logo1.png";
+import text1 from "../assets/images/more/name.png";
+import text2 from "../assets/images/more/get touch.png";
+import text3 from "../assets/images/more/Copyright Espresso Emporium ! All Rights Reserved.png";
+import logo1 from "../assets/images/more/24.jpg";
+import contact from "../assets/images/more/contact.png";
+import button from "../assets/images/more/button.png";
+import { FaFacebook } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdMarkEmailRead } from "react-icons/md";
+import { MdAddLocationAlt } from "react-icons/md";
 
 const Footer = () => {
   return (
