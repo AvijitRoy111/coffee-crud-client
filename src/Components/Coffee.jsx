@@ -59,17 +59,17 @@
 //           </button>
 //         </Link>
 
-//         <button
-//           onClick={() => {
-//             onDelete(_id);
-//           }}
-//           className="text-2xl font-bold text-[#FFFFFF] bg-[#EA4744] p-2 rounded-md"
-//         >
-//           <MdDelete />
-//         </button>
-//       </div>
-//     </div>
-//   );
-// };
+        <button
+          onClick={() => {
+            onDelete(_id);
+          }}
+          className="text-2xl font-bold text-[#FFFFFF] bg-[#EA4744] p-2 rounded-md"
+        >
+          <MdDelete />
+        </button>
+      </div>
+    </div>
+  );
+};
 
-// export default Coffee;
+export default Coffee;
