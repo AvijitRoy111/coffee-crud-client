@@ -83,11 +83,11 @@
 
 //       </div>
 
-//       <div style={{ backgroundImage: `url(${logo1})` }} className="h-16 flex items-center justify-center mt-16">
-//         <img  src={text3} alt="" />
-//       </div>
-//     </div>
-//   );
-// };
+      <div style={{ backgroundImage: `url(${logo1})` }} className="h-16 flex items-center justify-center mt-16">
+        <img  src={text3} alt="" />
+      </div>
+    </div>
+  );
+};
 
-// export default Footer;
+export default Footer;
