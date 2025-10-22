@@ -1,6 +1,6 @@
-// import logo from "../assets/images/more/logo1.png";
-// import background from "../assets/images/more/15.jpg";
-// import text from "../assets/images/more/Espresso Emporium.png"
+import logo from "../assets/images/more/logo1.png";
+import background from "../assets/images/more/15.jpg";
+import text from "../assets/images/more/Espresso Emporium.png"
 
 const Header = () => {
   return (
