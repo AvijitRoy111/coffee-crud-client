@@ -71,17 +71,17 @@
 //           </div>
 //         </div>
 
-//         <div className=" flex flex-col  gap-4 w-full">
-//           <img className="w-52" src={contact} alt="" />
-//           <input type="text" name="name" placeholder="Name" className="w-full  px-4 py-2 rounded-md"/>
-//           <input type="email" name="Email" placeholder="Email" className="w-full px-4 py-2 rounded-md"/>
-//           <input type="text" name="message" placeholder="Message" className="w-full px-4 pt-4 pb-12 rounded-md"/>
-//           <button>
-//                <img src={button} alt="" />
-//           </button>
-//         </div>
+        <div className=" flex flex-col  gap-4 w-full">
+          <img className="w-52" src={contact} alt="" />
+          <input type="text" name="name" placeholder="Name" className="w-full  px-4 py-2 rounded-md"/>
+          <input type="email" name="Email" placeholder="Email" className="w-full px-4 py-2 rounded-md"/>
+          <input type="text" name="message" placeholder="Message" className="w-full px-4 pt-4 pb-12 rounded-md"/>
+          <button>
+               <img src={button} alt="" />
+          </button>
+        </div>
 
-//       </div>
+      </div>
 
       <div style={{ backgroundImage: `url(${logo1})` }} className="h-16 flex items-center justify-center mt-16">
         <img  src={text3} alt="" />
