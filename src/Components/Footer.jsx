@@ -26,21 +26,21 @@
 //           <img className="w-52" src={text1} alt="" />
 //           <p className="text-base font-medium text-[#1B1A1A] ">
 //             Always ready to be your friend. Come & Contact with us <br /> to share your
-//             memorable moments, to share <br /> with your best companion.
-//           </p>
-//           <p className="flex gap-2 *:text-4xl *:font-bold *:text-[#331A15]">
-//             <span>
-//               <FaFacebook />
-//             </span>
-//             <span>
-//               <FaInstagram />
-//             </span>
-//             <span>
-//               <FaTwitter />
-//             </span>
-//             <span>
-//               <FaLinkedin />
-//             </span>
+            memorable moments, to share <br /> with your best companion.
+          </p>
+          <p className="flex gap-2 *:text-4xl *:font-bold *:text-[#331A15]">
+            <span>
+              <FaFacebook />
+            </span>
+            <span>
+              <FaInstagram />
+            </span>
+            <span>
+              <FaTwitter />
+            </span>
+            <span>
+              <FaLinkedin />
+            </span>
           </p>
           <img className="w-52" src={text2} alt="" />
           <div className="*:flex *:gap-2 *:items-center space-y-3">
